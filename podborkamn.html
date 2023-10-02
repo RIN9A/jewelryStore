@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин украшений</title>
+    <link rel = "icon" type = "image/png" href="podborkamn/img/favicon.png" >
+    <link rel ="stylesheet" href="podborkamn/css/podborkamn.css">
+</head>
+<body>
+<div id="header"></div>
+<div>
+
+  <form name="znak_zodiac">
+        <h1>Подбор камня по вашей дате рождения</h1>
+        <a>Введите ваши данные: </a>
+        <br><br>
+        <label class ="data_user">Имя:</label><input type="text" name="your_name" class="znak" id="user-name">
+        <br><br>
+        <label>Месяц:</label> <select name="your_month" class="znak" id="month"></select>
+        <br><br>
+        <label>День:</label> <select name="your_date" class="znak" id="day"></select>
+        <script src="podborkamn.js"></script>
+        <br><br>
+        <label>Ваш знак зодиака: </label> <label>
+            <input type="text" class="b2" name="znak" id="zn" disabled>
+        </label>
+        <br><br>
+        <input type="button" class="btn" value="Подобрать камень" onclick="addit()">
+        <input type="button" class="btn btn-success" value="Очистить поля" onclick="ref();">
+    </form>
+    <br>
+    <div id="result"></div>
+    <script src="pr.js"></script>
+</div>
+<! -- Constants and Utils -->
+<script src="utils/localStorageUtil.js"></script>
+<script src="constants/root.js"></script>
+<script src ="components/Header/Header.js"></script>
+<link rel="stylesheet" href="components/Header/Header.css">
+</body>
+</html>

@@ -1,0 +1,67 @@
+:root{
+    --color-light: #faebd7;
+    --color-white: #fff;
+    --color-unaccent: #808080;
+    --color-medium: #D2B48C;
+    --color-dark: #F4A460;
+
+    --spacing-small: 10px;
+    --spacing-medium: 15px;
+    --spacing-large: 30px;
+
+
+    --border-radius: 3px;
+    --linear-gradient: linear-gradient(to right, #FFFFE0, #FFFACD,#FFE4B5 ,#FFDAB9,#F0E68C);
+    --box-shadow:
+            0 16px 24px 2px rgba(33, 37, 41, .02),
+            0 6px 30px 5px rgba(33, 37, 41, .04),
+            0 8px 10px -5px rgba(33,37,41,.1);
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--color-dark);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    line-height: 1.7;
+    background-color: var(--color-light);
+}
+h1{
+    color: darkred;
+    font-family: 'Comfortaa', cursive;
+    text-align:center;
+
+
+}
+a{
+    color: darkred;
+    font-family: 'Comfortaa', cursive;
+    text-indent: 30px;
+    text-align:center;
+    padding: 10px 30px;}
+label{
+    color: darkred;
+    font-family: 'Comfortaa', cursive;
+
+}
+.btn{
+    background-color: darkred; color: white;
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 10px 14px;
+}
+
+
+
