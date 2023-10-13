@@ -2,7 +2,7 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "2005Tuzik3892";
+$password = "";
 $dbname = "jewelryshopdb";
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Проверка соединения
